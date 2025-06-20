@@ -100,7 +100,13 @@ Great work! Now that we are familiar with the app and we know it works, let's as
    > ```prompt
    > Hey copilot, how can I create and publish a new Git branch?
    > ```
+   > Copilot response:
+   >
+   > ```bash
+    >git checkout -b new-branch-name
+    >git push -u origin new-branch-name
 
+   > ```
    > **Tip:** This is a simple example, but Copilot is great at providing more tailored commands that might involve loops, pattern matching, file modification, and more! Don't be afraid to ask Copilot for a suggestion. Just remember it is a suggestion and you should always verify it first to be safe.
 
 1. Copilot probably gave us a command like the following. Rather than manually modify it, let's respond back to tell Copilot to use a particular name.
@@ -115,8 +121,11 @@ Great work! Now that we are familiar with the app and we know it works, let's as
    > ```prompt
    > Awesome! Thanks, Copilot! Let's use the
    > branch name "accelerate-with-copilot".
-   > ```
+   >```bash
 
+   git checkout -b accelerate-with-copilot
+   git push -u origin accelerate-with-copilot
+   >```
    > **Tip:** If Copilot doesn't give you quite what you want, you can always continue explaining what you need. Copilot will remember the conversation history for follow-up responses.
 
 1. Now that we are happy with the command, press the `Run` button to let Copilot run it for us. No need to copy and paste!
